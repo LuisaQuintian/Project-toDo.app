@@ -59,31 +59,35 @@ body .header-container .new-task-container #new-task-input {
 }
 
 body .header-container .new-task-container #new-task-input:hover {
-  opacity: 0.5;
+  opacity: 0.7;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  text-indent: 10px;
 }
 
 body .header-container .new-task-container #new-task-input::-webkit-input-placeholder {
   font-size: 1rem;
   color: #F79896;
-  text-indent: 5px;
+  text-indent: 10px;
 }
 
 body .header-container .new-task-container #new-task-input:-ms-input-placeholder {
   font-size: 1rem;
   color: #F79896;
-  text-indent: 5px;
+  text-indent: 10px;
 }
 
 body .header-container .new-task-container #new-task-input::-ms-input-placeholder {
   font-size: 1rem;
   color: #F79896;
-  text-indent: 5px;
+  text-indent: 10px;
 }
 
 body .header-container .new-task-container #new-task-input::placeholder {
   font-size: 1rem;
   color: #F79896;
-  text-indent: 5px;
+  text-indent: 10px;
 }
 
 body .header-container .new-task-container #new-task-link {
