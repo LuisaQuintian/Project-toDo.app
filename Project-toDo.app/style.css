@@ -6,7 +6,7 @@ html, body, * {
 }
 
 body {
-  background-color: #F79896;
+  background-color: #f796b6;
   height: 100vh;
   overflow-x: hidden;
   font-family: Quicksand, Arial, sans-serif;
@@ -60,7 +60,7 @@ body .header-container .new-task-container #new-task-input {
 
 body .header-container .new-task-container #new-task-input:hover {
   opacity: 0.7;
-  color: black;
+  color: #535353;
   font-size: 1rem;
   font-weight: 500;
   text-indent: 10px;
@@ -68,25 +68,25 @@ body .header-container .new-task-container #new-task-input:hover {
 
 body .header-container .new-task-container #new-task-input::-webkit-input-placeholder {
   font-size: 1rem;
-  color: #F79896;
+  color: #f796b6;
   text-indent: 10px;
 }
 
 body .header-container .new-task-container #new-task-input:-ms-input-placeholder {
   font-size: 1rem;
-  color: #F79896;
+  color: #f796b6;
   text-indent: 10px;
 }
 
 body .header-container .new-task-container #new-task-input::-ms-input-placeholder {
   font-size: 1rem;
-  color: #F79896;
+  color: #f796b6;
   text-indent: 10px;
 }
 
 body .header-container .new-task-container #new-task-input::placeholder {
   font-size: 1rem;
-  color: #F79896;
+  color: #f796b6;
   text-indent: 10px;
 }
 
