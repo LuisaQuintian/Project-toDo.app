@@ -19,20 +19,15 @@
 
         <div class="new-task-container">
             <input type="text" placeholder="New item" id="new-task-input">
-            <a href="#" id="new-task-link"><img src="images/add.png" alt="plus sign"></a>
+            <a href="#" id="new-task-link" onclick="addNewItem()"><img src="images/add.png" alt="plus sign"></a>
         </div>
     </header>
     <main class="lists-container">
-        <ul type="none">
-            <li>Terminar projeto</li>
-            <li>Terminar módulo 2 de CSS</li>
-            <li>Fazer desafios de JavaScrit</li>
-            <li>Limpar a casa</li>
-            <li>Lavar as paredes</li>
-    
+        <ul id="listUl" type="none">
+            <li id="firstItem">Add your first task</li>
         </ul>
     </main>
-
+    <script src="script.js"></script>
     
 </body>
 </html>
