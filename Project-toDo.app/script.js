@@ -20,7 +20,9 @@ function addNewItem() {
     document.getElementById('new-task-input').value = ''
 
     //5 - Remove the first item
-    document.getElementById('firstItem').remove()
-    
-    
+    document.getElementById('firstItem').remove()  
+}
+
+function toggle() {
+    document.getElementById('modal').classList.toggle('hidden')
 }
