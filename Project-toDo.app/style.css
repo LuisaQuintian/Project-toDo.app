@@ -99,6 +99,41 @@ body .header-container .new-task-container #new-task-link img {
   width: 100%;
 }
 
+body .header-container .modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 15px 45px 0 0;
+  height: 22rem;
+  width: 5rem;
+  padding: 0.8rem 0;
+  border-radius: 20px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px #b38b8b3f;
+          box-shadow: 5px 5px #b38b8b3f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .header-container .modal .color-button {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+}
+
+body .header-container .modal .color-button img {
+  width: 3rem;
+}
+
 body .lists-container {
   background-color: #ffddeb;
   width: 100vw;
