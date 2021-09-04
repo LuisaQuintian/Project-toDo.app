@@ -7,7 +7,6 @@ html, body, * {
 }
 
 body {
-  background-color: #f796b6;
   height: 100vh;
   overflow-x: hidden;
   font-family: Quicksand, Arial, sans-serif;
@@ -69,25 +68,21 @@ body .header-container .new-task-container #new-task-input:hover {
 
 body .header-container .new-task-container #new-task-input::-webkit-input-placeholder {
   font-size: 1rem;
-  color: #f796b6;
   text-indent: 10px;
 }
 
 body .header-container .new-task-container #new-task-input:-ms-input-placeholder {
   font-size: 1rem;
-  color: #f796b6;
   text-indent: 10px;
 }
 
 body .header-container .new-task-container #new-task-input::-ms-input-placeholder {
   font-size: 1rem;
-  color: #f796b6;
   text-indent: 10px;
 }
 
 body .header-container .new-task-container #new-task-input::placeholder {
   font-size: 1rem;
-  color: #f796b6;
   text-indent: 10px;
 }
 
@@ -141,7 +136,6 @@ body .header-container .hidden {
 }
 
 body .lists-container {
-  background-color: #ffddeb;
   width: 100vw;
   min-height: calc(100% - 150px);
   border-radius: 30px 30px 0 0;
@@ -170,5 +164,125 @@ body .lists-container ul li {
           box-shadow: 5px 5px #b38b8b3f;
   font-weight: 700;
   color: #535353;
+}
+
+.pink {
+  background-color: #f796b6;
+}
+
+.pink #new-task-input::-webkit-input-placeholder {
+  color: #f796b6;
+}
+
+.pink #new-task-input:-ms-input-placeholder {
+  color: #f796b6;
+}
+
+.pink #new-task-input::-ms-input-placeholder {
+  color: #f796b6;
+}
+
+.pink #new-task-input::placeholder {
+  color: #f796b6;
+}
+
+.pink .lists-container {
+  background-color: #ffddeb;
+}
+
+.purple {
+  background-color: #d47af8;
+}
+
+.purple #new-task-iput::-webkit-input-placeholder {
+  color: #d47af8;
+}
+
+.purple #new-task-iput:-ms-input-placeholder {
+  color: #d47af8;
+}
+
+.purple #new-task-iput::-ms-input-placeholder {
+  color: #d47af8;
+}
+
+.purple #new-task-iput::placeholder {
+  color: #d47af8;
+}
+
+.purple .lists-container {
+  background-color: #efccff;
+}
+
+.blue {
+  background-color: #96c3f7;
+}
+
+.blue #new-task-input::-webkit-input-placeholder {
+  color: #96c3f7;
+}
+
+.blue #new-task-input:-ms-input-placeholder {
+  color: #96c3f7;
+}
+
+.blue #new-task-input::-ms-input-placeholder {
+  color: #96c3f7;
+}
+
+.blue #new-task-input::placeholder {
+  color: #96c3f7;
+}
+
+.blue .lists-container {
+  background-color: #ddecff;
+}
+
+.green {
+  background-color: #7fec7c;
+}
+
+.green #new-task-input::-webkit-input-placeholder {
+  color: #7fec7c;
+}
+
+.green #new-task-input:-ms-input-placeholder {
+  color: #7fec7c;
+}
+
+.green #new-task-input::-ms-input-placeholder {
+  color: #7fec7c;
+}
+
+.green #new-task-input::placeholder {
+  color: #7fec7c;
+}
+
+.green .lists-container {
+  background-color: #ccffcc;
+}
+
+.yellow {
+  background-color: #f7e650;
+}
+
+.yellow #new-task-input::-webkit-input-placeholder {
+  color: #f7e650;
+}
+
+.yellow #new-task-input:-ms-input-placeholder {
+  color: #f7e650;
+}
+
+.yellow #new-task-input::-ms-input-placeholder {
+  color: #f7e650;
+}
+
+.yellow #new-task-input::placeholder {
+  color: #f7e650;
+}
+
+.yellow .lists-container {
+  background-color: #fffbc2;
 }
 /*# sourceMappingURL=style.css.map */
