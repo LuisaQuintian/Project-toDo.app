@@ -1,3 +1,13 @@
+window.onload = function() {
+    const getColor = localStorage.getItem('color')
+    if(getColor == '') {
+        colorSwitch(pink)
+    } else {
+        colorSwitch(getColor)
+    }
+  };
+
+
 function addNewItem() {
     //1 - Get data from the input
     const newItem = document.getElementById('new-task-input').value
@@ -20,7 +30,7 @@ function addNewItem() {
     document.getElementById('new-task-input').value = ''
 
     //5 - Remove the first item
-    document.getElementById('firstItem').remove()  
+    document.getElementById('firstItem').remove() 
 }
 
 function toggle() {
@@ -33,21 +43,29 @@ function colorSwitch(color) {
     switch (color) {
         case 'pink':
             bodyColor.classList.add('pink');
+            localStorage.setItem("color", "pink")
             break
         case 'purple':
             bodyColor.classList.add('purple');
+            localStorage.setItem("color", "purple")
             break
         case 'blue':
             bodyColor.classList.add('blue');
+            localStorage.setItem("color", "blue")
             break
         case 'green':
             bodyColor.classList.add('green');
+            localStorage.setItem("color", "green")
             break
         case 'yellow':
             bodyColor.classList.add('yellow');
+            localStorage.setItem("color", "yellow")
             break
         default:
             bodyColor.classList.add('pink');
+            localStorage.setItem("color", "pink")
     }
-    toggle()
+    // toggle()
+    
+    document.getElementById('modal').classList.add('hidden')
 }
