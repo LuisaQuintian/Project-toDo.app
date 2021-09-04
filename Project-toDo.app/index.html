@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
     <title>To Do App</title>
 </head>
-<body class="pink">
+<body id="body-color" class="pink">
     <header class="header-container">
         <div class="title">
             <h1>To Do List</h1>
@@ -22,12 +22,12 @@
         </div>
 
         <div id="modal" class="hidden">
-            <button class="color-button"><img src="images/pink-button.png" alt="pink sphere"></button>
-            <button class="color-button"><img src="images/purple-button.png" alt="purple sphere"></button>
-            <button class="color-button"><img src="images/blue-button.png" alt="blue sphere"></button>
-            <button class="color-button"><img src="images/green-button.png" alt="green sphere"></button>
-            <button class="color-button"><img src="images/yellow-button.png" alt="yellow sphere"></button>
-            <button class="color-button"><img src="images/dark-mode-button.png" alt="grey sphere"></button>
+            <button onclick="colorSwitch('pink')" class="color-button"><img src="images/pink-button.png" alt="pink sphere"></button>
+            <button onclick="colorSwitch('purple')" class="color-button"><img src="images/purple-button.png" alt="purple sphere"></button>
+            <button onclick="colorSwitch('blue')" class="color-button"><img src="images/blue-button.png" alt="blue sphere"></button>
+            <button onclick="colorSwitch('green')" class="color-button"><img src="images/green-button.png" alt="green sphere"></button>
+            <button onclick="colorSwitch('yellow')" class="color-button"><img src="images/yellow-button.png" alt="yellow sphere"></button>
+            <button onclick="colorSwitch('darkmode')" class="color-button"><img src="images/dark-mode-button.png" alt="grey sphere"></button>
 
         </div>
         

@@ -26,3 +26,28 @@ function addNewItem() {
 function toggle() {
     document.getElementById('modal').classList.toggle('hidden')
 }
+
+function colorSwitch(color) {
+    let bodyColor = document.getElementById("body-color")
+    bodyColor.removeAttribute("class")
+    switch (color) {
+        case 'pink':
+            bodyColor.classList.add('pink');
+            break
+        case 'purple':
+            bodyColor.classList.add('purple');
+            break
+        case 'blue':
+            bodyColor.classList.add('blue');
+            break
+        case 'green':
+            bodyColor.classList.add('green');
+            break
+        case 'yellow':
+            bodyColor.classList.add('yellow');
+            break
+        default:
+            bodyColor.classList.add('pink');
+    }
+    toggle()
+}
