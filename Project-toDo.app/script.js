@@ -33,6 +33,14 @@ function addNewItem() {
     document.getElementById('firstItem').remove() 
 }
 
+function checked() {
+    document.getElementById('firstItem').classList.toggle('checked')
+}
+
+
+
+
+
 function toggle() {
     document.getElementById('modal').classList.toggle('hidden')
 }

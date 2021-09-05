@@ -168,6 +168,11 @@ body .lists-container ul li {
   color: #535353;
 }
 
+body .lists-container ul .checked {
+  text-decoration: line-through;
+  background-color: #dfdfdf9a;
+}
+
 .pink {
   background-color: #f796b6;
 }
