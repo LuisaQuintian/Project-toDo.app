@@ -166,6 +166,19 @@ body .lists-container ul li {
           box-shadow: 5px 5px #b38b8b3f;
   font-weight: 700;
   color: #535353;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .lists-container ul li p {
+  line-break: anywhere;
 }
 
 body .lists-container ul li a {
