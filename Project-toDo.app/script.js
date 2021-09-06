@@ -19,16 +19,19 @@ function addNewItem(task) {
     let newItem = document.getElementById('new-task-input').value
 
     if (task) {newItem = task.text}
-    if (task && task.checked) {
-        taskEl.classList.add('checked')
-    }
+    
 
     //2 - Check if the input was filled
     if (newItem === "") {return}
 
     //3 - Put the data into the list
     const taskEl = document.createElement("li")
-    taskEl.innerHTML = `${newItem} <a onclick='removeEl(this)' href="#">X</a>` //Remove
+
+    if (task && task.checked) {
+        taskEl.classList.add('checked')
+    }
+    
+    taskEl.innerHTML = `<p>${newItem}</p> <a onclick='removeEl(this)' href="#">X</a>` //Remove 
     const element = document.getElementById('listUl')
     element.appendChild(taskEl)
     taskEl.classList.add('listItem')
@@ -96,8 +99,8 @@ function updateLS() {
 
     tasksEl.forEach(taskEl => {
         tasks.push({
-            text: taskEl.innerText,
-            completed: taskEl.classList.contains('checked')
+            text: taskEl.firstChild.innerText,
+            checked: taskEl.classList.contains('checked')
         })
     })
     localStorage.setItem('tasks', JSON.stringify(tasks))
