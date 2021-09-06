@@ -17,7 +17,7 @@ function addNewItem() {
 
     //3 - Put the data into the list
     const taskEl = document.createElement("li")
-    taskEl.innerHTML = newItem
+    taskEl.innerHTML = `${newItem} <a href="#">X</a>`
     const element = document.getElementById('listUl')
     element.appendChild(taskEl)
     taskEl.classList.add('listItem')
@@ -33,6 +33,7 @@ function addNewItem() {
     //5 - Remove the first item
     document.querySelector('.firstItem').remove() 
 }
+
 
 function toggle() {
     document.getElementById('modal').classList.toggle('hidden')

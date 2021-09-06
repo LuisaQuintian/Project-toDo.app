@@ -168,9 +168,22 @@ body .lists-container ul li {
   color: #535353;
 }
 
+body .lists-container ul li a {
+  display: none;
+  visibility: hidden;
+}
+
 body .lists-container ul .checked {
   text-decoration: line-through;
   background-color: #dfdfdf9a;
+}
+
+body .lists-container ul .checked a {
+  display: inline-block;
+  visibility: visible;
+  float: right;
+  text-decoration: none;
+  color: #535353;
 }
 
 .pink {
