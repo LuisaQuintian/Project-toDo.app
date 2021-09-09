@@ -15,6 +15,7 @@ body {
 
 body .header-container {
   max-width: 1120px;
+  margin: auto;
 }
 
 body .header-container .title {
