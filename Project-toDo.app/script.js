@@ -53,6 +53,14 @@ function addNewItem(task) {
     updateLS()
 }
 
+//event lisneter to make the enter button add items to the list
+let newItem = document.getElementById('new-task-input')
+newItem.onkeyup = function(e){
+    if(e.keyCode == 13){
+       addNewItem();
+    }
+}
+
 function removeEl(e) {
     e.parentElement.remove()
     updateLS()

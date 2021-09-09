@@ -57,14 +57,14 @@ body .header-container .new-task-container #new-task-input {
   width: 60vw;
   border-style: none;
   outline: none;
-}
-
-body .header-container .new-task-container #new-task-input:hover {
-  opacity: 0.7;
-  color: #535353;
   font-size: 1rem;
   font-weight: 500;
   text-indent: 10px;
+}
+
+body .header-container .new-task-container #new-task-input:focus {
+  opacity: 0.7;
+  color: #535353;
 }
 
 body .header-container .new-task-container #new-task-input::-webkit-input-placeholder {
