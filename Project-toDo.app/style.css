@@ -44,6 +44,7 @@ body .header-container .title h1 {
   color: white;
   font-weight: 700;
   margin: 40px auto 10px;
+  cursor: default;
 }
 
 body .header-container .new-task-container {
@@ -190,6 +191,7 @@ body .lists-container ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 body .lists-container ul li p {
